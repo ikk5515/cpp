@@ -5,6 +5,7 @@
         "string.h": "c",
         "ios": "c",
         "ostream": "cpp",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "cmath": "cpp"
     }
 }
