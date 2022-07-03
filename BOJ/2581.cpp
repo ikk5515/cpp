@@ -1,3 +1,4 @@
+//BOJ_2581_소수
 #include <iostream>
 #include <vector>
 #include <algorithm>
