@@ -18,9 +18,8 @@ int main() {
         cin >> number;      // N만큼 입력받은 수를 arr배열에 넣어줌
         arr[i] = number;
     }
-    sort(arr, arr + N
-    );      // arr배열을 정렬해줌
-
+    sort(arr, arr + N);      // arr배열을 정렬해줌
+    
     cin >> M;
     for (int i = 0; i < M; i++) {
         cin >> number;
