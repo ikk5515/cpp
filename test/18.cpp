@@ -20,6 +20,10 @@ int main() {
         }
         ans = max(ans, cnt);
     }
-    cout << ans << "\n";
+    if (ans > 0) {
+        cout << ans << "\n";
+    } else {
+        cout << -1 << "\n";
+    }
     return 0;
 }
