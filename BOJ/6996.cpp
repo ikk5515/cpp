@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     string str1, str2;
     string r_str1, r_str2;
     int n = 0;
