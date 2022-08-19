@@ -1,4 +1,4 @@
-//BOJ_11053_가장_긴_감소하는_부분_수열
+//BOJ_11722_가장_긴_감소하는_부분_수열
 #include <iostream>
 #include <math.h>
 using namespace std;
