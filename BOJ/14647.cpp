@@ -25,13 +25,13 @@ int main() {
         }
     }
     for (int i = 0; i < n; i++) {
-        count += row[i];
+        count += row[i];            // 9의 전체개수를 구함
         result = max(row[i], result);
     }
     for (int i = 0; i < m; i++) {
         result = max(col[i], result);
     }
 
-    cout << count - result;
+    cout << count - result;     // 9의 전체개수 - 최대갯수
     return 0;
 }
