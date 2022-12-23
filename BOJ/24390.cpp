@@ -20,7 +20,7 @@ int main() {
     input += (str1[1]-'0') * 60;
     input += (str1[3]-'0') * 10;
     input += (str1[4]-'0');
-    
+
     while (input != 0) {
         if (input >= tenMin) {
             input -= tenMin;
@@ -39,8 +39,6 @@ int main() {
             continue;
         }
     }
-
         cout << count << "\n";
-    
     return 0;
 }
