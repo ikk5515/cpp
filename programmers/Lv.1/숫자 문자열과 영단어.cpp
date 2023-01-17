@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int solution(string s) {    
+int solution(string s) {
     int answer = 0;
     string str;
     for (int i = 0; i < s.size(); i++) {
