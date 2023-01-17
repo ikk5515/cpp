@@ -32,7 +32,7 @@ string solution(vector<string> survey, vector<int> choices) {
             arr[b] += 3;
         }
     }
-    
+
     if (arr[82] >= arr[84]) {
         answer += char(82);
     } else {
