@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int solution(string t, string p) {
+int solution(string t, string p) { 
     vector<string> v;
     int answer = 0;
     int length = p.length();
