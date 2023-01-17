@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int solution(vector<string> babbling) {
+int solution(vector<string> babbling) { 
     bool flag = true;
     int answer = 0;
     int cnt = 0;
