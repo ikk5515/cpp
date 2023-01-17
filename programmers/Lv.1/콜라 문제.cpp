@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int solution(int a, int b, int n) {
+int solution(int a, int b, int n) { 
     int answer = 0;
     while(true) {
         if (n < a) {
